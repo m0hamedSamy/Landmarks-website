@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.14.0-web/css/all.css">
+    
+    <title>GlobCulture - Cairo</title>
+</head>
+<body>
+    
+    
+    
+    <div class="header-container">
+        <div class="slider-container">
+            <div class="slide">
+                <img src="images/cairo-1.jpg" alt="">
+                <img src="images/cairo-2.jpg" alt="">
+                <img src="images/cairo-3.jpg" alt="">
+                <img src="images/cairo-4.jpg" alt="">
+                <img src="images/cairo-5.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="hamIcon" onclick="toggleClass()">
+            <span>&#9776;</span>
+        </div>
+        <header>
+            <h1 class="siteName"><a href="#home">GlobCulture</a></h1>
+
+            <div class="search-box">
+                <input class="search-txt" type="text" placeholder="Type to search">
+                <a href="#" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+
+            <nav class="mainMenu">
+                <ul>
+                    <li class="home"><a href="../project kolya/index.html">Home</a></li>
+                    <li class="egyLand"><a href="../Egyptian_cities/main.html">Egyptian</a></li>
+                    <li class="forLand"><a href="../it project/page1.html">Foreign</a></li>
+                    <li class="login"><a href="../project kolya/login_page.html">Login</a></li>
+                    <li class="signUp"><a href="../signup/index.html">Sign up</a></li>
+                    <li class="signUp" style="margin-left: 17px;"><a href="../feedback form/index.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="sub-nav">
+        <div class="content-menu">
+            <ul>
+                <li class="highlights"><a href="#highlightsTitle">HIGHLIGHTS</a></li>
+            </ul>
+        </div>
+        
+        <hr>
+    </div>
+
+    <div class="text-content">
+        <h2 class="text-header">Welcome to Cairo</h2>
+        <hr>
+        <p class="first-p">
+            Cairo is chaos at its most magnificent, infuriating and beautiful. From above, the distorted roar of the muezzins' call to prayer echoes out from duelling minarets. Below, car horns bellow tuneless symphonies amid avenues of faded 19th-century grandeur while donkey carts rattle down dusty lanes lined with colossal Fatimid and Mamluk monuments.
+        </p>
+        <p class="second-p">
+            This mega-city's constant buzz and noise is a product of its 22-or-so million inhabitants simultaneously crushing Cairo's infrastructure under their collective weight and lifting its spirits up with their exceptional humour. Your nerves will jangle, your snot will run black from the smog and touts will hound you at every turn, but it's a small price to pay to tap into the energy of the place Egyptians call Umm Ad Dunya – the Mother of the World.
+        </p>
+        <p class="second-p">
+            Blow your nose, crack a joke and look through the dirt to see the city's true colours. If you love Cairo, it will definitely love you back.
+        </p>
+    </div>
+
+    <div id="highlightsTitle">
+        <span class="highlights-word">Highlights</span>
+        <span class="in-word">in</span>
+        <span class="cairo-word">Cairo</span>
+    </div>
+    
+
+    <div class="highlights-container">
+        <div id="img-1" onclick="togglePopup1()">
+            <span>Pyramids of Giza</span>
+        </div>
+        <div id="img-2" onclick="togglePopup2()">
+            <span>Egyptian Museum</span>
+        </div>
+        <div id="img-3" onclick="togglePopup3()">
+            <span>Khan Al Khalili</span>
+        </div>
+        <div id="img-4" onclick="togglePopup4()">
+            <span>Coptic Museum</span>
+        </div>
+    </div>
+
+    <div class="highlights-popup" id="popup-1"> 
+        <div class="overlay"></div>
+        <div class="highlights-content">
+            <div class="close-btn" onclick="togglePopup1()">&times;</div>
+            <h1>Pyramids of Giza</h1>
+            <div class="label"><em><span class="red">Top choice</span> archaeological site in Giza</em></div>
+            <img src="images/pyramids-of-giza.jpg" alt="pyramids of giza">
+            <p style="margin-bottom: 40px;">
+                The last remaining wonder of the ancient world; for nearly 4000 years, the extraordinary shape, impeccable geometry and sheer bulk of the Giza Pyramids have invited the obvious questions: ‘How were we built, and why?’. Centuries of research have given us parts of the answer. Built as massive tombs on the orders of the pharaohs, they were constructed by teams of workers tens-of-thousands strong. Today they stand as an awe-inspiring tribute to the might, organisation and achievements of ancient Egypt.
+            </p>
+            <p>
+                Ongoing excavations on the Giza Plateau, along with the discovery of a pyramid-builders' settlement, complete with areas for large-scale food production and medical facilities, have provided more evidence that the workers were not the slaves of Hollywood tradition, but an organised workforce of Egyptian farmers. During the flood season, when the Nile covered their fields, the same farmers could have been redeployed by the highly structured bureaucracy to work on the pharaoh’s tomb. In this way, the Pyramids can almost be seen as an ancient job-creation scheme. And the flood waters made it easier to transport building stone to the site.
+            </p>
+            <p>
+                But despite the evidence, some still won’t accept that the ancient Egyptians were capable of such achievements. So-called pyramidologists point to the carving and placement of the stones, precise to the millimetre, and argue the numerological significance of the structures’ dimensions as evidence that the Pyramids were constructed by angels or aliens. It’s easy to laugh at these out-there ideas, but when you see the monuments up close, especially inside, you’ll better understand why so many people believe such awesome structures must have unearthly origins.
+            </p>
+            <p>
+                Most visitors will make a beeline straight to the four most famous sights; the Great Pyramid of Khufu, the Pyramid of Khafre, the Pyramid of Menkaure and the Sphinx. But for those who want to explore further, the desert plateau surrounding the pyramids is littered with tombs, temple ruins and smaller satellite pyramids.
+            </p>
+        </div>
+    </div>
+
+    <div class="highlights-popup" id="popup-2"> 
+        <div class="overlay"></div>
+        <div class="highlights-content">
+            <div class="close-btn" onclick="togglePopup2()">&times;</div>
+            <h1>Egyptian Museum</h1>
+            <div class="label"><em><span class="red">Top choice</span> museum in Cairo</em></div>
+            <img src="images/egyptian-museum.jpg" alt="Egyptian Museum">
+            <p style="margin-bottom: 40px;">
+                One of the world’s most important collections of ancient artefacts, the Egyptian Museum takes pride of place in Downtown Cairo, on the north side of Midan Tahrir. Inside the great domed, oddly pinkish building, the glittering treasures of Tutankhamun and other great pharaohs lie alongside the grave goods, mummies, jewellery, eating bowls and toys of Egyptians whose names are lost to history.
+            </p>
+            <p>
+                To walk around the museum is to embark on an adventure through time.
+            </p>
+            <p>
+                Some display cards have become obsolete as new discoveries have busted old theories. And the collection rapidly outgrew its sensible layout, as, for instance, Tutankhamun’s enormous trove and the tomb contents of Tanis were both unearthed after the museum opened, and then had to be shoehorned into the space. Now more than 100,000 objects are wedged into about 15,000 sq metres. Like the country itself, the museum is in flux. Most objects are still on display, although some are being moved to the Grand Egyptian Museum. While some rooms are being refurbished, the objects are deposited elsewhere in the museum. This museum will remain a major sight, but it is not yet clear when the Grand will open and what will remain here.
+            </p>
+            <p>
+                The current museum has its origins in several earlier efforts at managing Egypt’s ancient heritage, beginning in 1835 when Egyptian ruler Mohammed Ali banned the export of antiquities. French architect Mariette’s growing collection, from 35 dig sites, bounced around various homes in Cairo until 1902, when the current building was erected, in a suitably prominent position in the city. There it has stood, in its original layout, a gem of early museum design.
+            </p>
+            <p>
+                Until 1996, museum security involved locking the door at night. When an enterprising thief stowed away overnight and helped himself to treasures, the museum authorities installed alarms and detectors, at the same time improving the lighting on many exhibits. During the 2011 revolution, the museum was broken into and a few artefacts went missing. To prevent further looting, activists formed a human chain around the building to guard its contents. By most reports, they were successful.
+            </p>
+        </div>
+    </div>
+
+    <div class="highlights-popup" id="popup-3"> 
+        <div class="overlay"></div>
+        <div class="highlights-content">
+            <div class="close-btn" onclick="togglePopup3()">&times;</div>
+            <h1>Khan Al Khalili</h1>
+            <div class="label"><em><span class="red">Top choice</span> market in Cairo</em></div>
+            <img src="images/khan-al-khalili.jpg" alt="Khan Al Khalili">
+            <p style="margin-bottom: 40px;">
+                The skinny lanes of Khan Al Khalili are basically a medieval-style mall. This agglomeration of shops – many arranged around small courtyards – stocks everything from soap powder to semiprecious stones, not to mention tacky toy camels and alabaster pyramids. Most shops and stalls open from around 9am to well after sundown (except Friday morning and Sunday), although plenty of the souvenir vendors are open as long as there are customers, even on Sunday.
+            </p>
+            <p>
+                Cairenes have plied their trades here since the khan was built in the 14th century, and parts of the market, such as the gold district, are still the first choice for thousands of locals. The khan used to be divided into fairly rigid districts, but now the only distinct areas are the gold sellers, the coppersmiths and the spice dealers. Apart from the clumsy ‘Hey mister, look for free’ touts, the merchants of Khan Al Khalili are some of the greatest smooth-talkers you will ever meet. Almost anything can be bought here and if one merchant doesn’t have what you’re looking for, he’ll happily find somebody who does.
+            </p>
+        </div>
+    </div>
+
+    <div class="highlights-popup" id="popup-4"> 
+        <div class="overlay"></div>
+        <div class="highlights-content">
+            <div class="close-btn" onclick="togglePopup4()">&times;</div>
+            <h1>Coptic Museum</h1>
+            <div class="label"><em><span class="red">Top choice</span> museum in Cairo</em></div>
+            <img src="images/coptic-museum.jpg" alt="Coptic Museum">
+            <p style="margin-bottom: 40px;">
+                This museum, founded in 1908, houses Coptic art from the earliest days of Christianity in Egypt right through to early Islam. It is a beautiful place, as much for the elaborate woodcarving in all the galleries as for the treasures they contain. These include sculpture that shows obvious continuity from the Ptolemaic period, rich textiles and whole walls of monastery frescoes. Allow at least a couple of hours to explore the 1200 or so pieces on display.
+            </p>
+            <p>
+                The 2nd- to 5th-century funerary stelae from Kom Abou Billou clearly show the transition between Pharaonic and Coptic art, with the first crosses shaped like the ankh, key of life. The 4th- and 5th-century sculpture equally marks this transition, where Christian symbolism was influenced by Graeco-Roman mythology as well as older Pharaonic subjects. Rebirth through baptism of water is suggested by Aphrodite emerging from the waters on a seashell. Look out for the wonderful 7th- to 8th-century work of three mice asking a cat for peace. In Egypt the depiction of animals behaving like humans dates back to 1500 BC.
+            </p>
+            <p>
+                Upstairs are two large rooms with exquisite 4th- to 7th-century Coptic textiles, woven and embroidered, and a room with the Nag Hammadi manuscripts, the primary source for Gnosticism, and the oldest book of psalms in the world, the Psalms of David, with two original wooden covers.
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="left box">
+                <h2>About us</h2>
+                <div class="content">
+                    <p>We are computer science students and web developers.</p>
+                    <div class="social">
+                        <span><a href="#"><span class="fab fa-facebook"></span></a></span>
+                        <span><a href="#"><span class="fab fa-twitter"></span></a></span>
+                        <span><a href="#"><span class="fab fa-instagram"></span></a></span>
+                        <span><a href="#"><span class="fab fa-youtube"></span></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="center-i" style="padding: 10px 13px;"><span class="fas fa-map-marker-alt"></span></span>
+                        <span class="text">Cairo, Egypt</span>
+                    </div>
+                    <div class="phone">
+                        <span class="center-i"><span class="fas fa-phone-alt"></span></span>
+                        <span class="text">+201234567890</span>
+                    </div>
+                    <div class="email">
+                        <span class="center-i"><span class="fas fa-envelope"></span></span>
+                        <span class="text">developers@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Contact us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <textarea cols="25" rows="2" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <span class="credit">Created By <a href="#">Mohamed Samy</a> | </span>
+            <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="../fontawesome-free-5.14.0-web/js/all.js"></script>
+</body>
+</html>
